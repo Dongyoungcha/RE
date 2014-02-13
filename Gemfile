@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
-
+ruby "2.1.0p0"
 gem 'jbuilder', '~> 1.2'
 gem 'rails', '4.0.2'
+
 group :production do
 	gem 'pg'
 end
