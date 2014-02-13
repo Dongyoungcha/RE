@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'jbuilder', '~> 1.2'
 gem 'rails', '4.0.2'
 group :production do
 	gem 'pg'
@@ -18,14 +18,14 @@ gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'coffee-rails', '~> 4.0.0'
-
-
-gem 'jquery-rails'
-
-gem 'turbolinks'
-
-gem 'jbuilder', '~> 1.2'
 end
+
+gem "jquery-rails", "< 3.0.0"
+
+
+
+
+
 
 
 group :doc do
